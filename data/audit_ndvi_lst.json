@@ -1,0 +1,54 @@
+{
+    "NDVI": {
+        "file_name": "MOD13Q1.061_250m_aid0001.nc",
+        "temporal": {
+            "first_timestamp": 472262400.0,
+            "last_timestamp": 842659200.0,
+            "time_units": "seconds since 2000-01-01 00:00:00+00:00",
+            "calendar": "julian",
+            "count": 271,
+            "expected_step": 1382400.0,
+            "missing_steps": 0,
+            "is_regular": true
+        },
+        "spatial": {
+            "x_min": -1778078.3778438186,
+            "x_max": -108994.31656250614,
+            "y_min": 2320617.568894594,
+            "y_max": 3993871.444624631,
+            "x_resolution": 231.656358262524,
+            "y_resolution": 231.656358262524,
+            "coordinate_names": [
+                "xdim",
+                "ydim"
+            ]
+        },
+        "error": "len() of unsized object"
+    },
+    "LST": {
+        "file_name": "MOD11A2.061_1km_aid0001.nc",
+        "temporal": {
+            "first_timestamp": 472953600.0,
+            "last_timestamp": 836438400.0,
+            "time_units": "seconds since 2000-01-01 00:00:00+00:00",
+            "calendar": "julian",
+            "count": 530,
+            "expected_step": 691200.0,
+            "missing_steps": 1,
+            "is_regular": false
+        },
+        "spatial": {
+            "x_min": -1777730.893306425,
+            "x_max": -108878.48838337511,
+            "y_min": 2320733.3970737252,
+            "y_max": 3994218.929162025,
+            "x_resolution": 926.6254330498632,
+            "y_resolution": 926.625433050096,
+            "coordinate_names": [
+                "xdim",
+                "ydim"
+            ]
+        },
+        "error": "len() of unsized object"
+    }
+}

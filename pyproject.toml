@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "terrapulse-ai"
+version = "0.1.0"
+description = "TerraPulse AI - From Satellite Data to Earth Insights"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scipy",
+    "xarray",
+    "netCDF4",
+    "dask",
+    "h5netcdf",
+    "fastapi",
+    "uvicorn",
+    "python-dotenv",
+    "matplotlib",
+    "pydantic",
+    "httpx"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort",
+    "flake8",
+    "jupyter"
+]
