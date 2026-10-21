@@ -1,0 +1,16 @@
+{
+  "NDVI": {
+    "total_observations": 271,
+    "total_anomalies": 6,
+    "anomaly_rate_pct": 2.21,
+    "severe_negative_drought_events": 0,
+    "severe_positive_greening_events": 6
+  },
+  "LST": {
+    "total_observations": 271,
+    "total_anomalies": 10,
+    "anomaly_rate_pct": 3.69,
+    "extreme_heatwaves": 0,
+    "extreme_coldwaves": 10
+  }
+}

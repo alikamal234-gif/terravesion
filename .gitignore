@@ -39,10 +39,16 @@ ENV/
 # Data
 data/raw/*
 !data/raw/.gitkeep
-data/interim/*
-!data/interim/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
+*.nc
+
+# Lightweight data artifacts and models required by FastAPI
+!data/interim/firms_morocco_deduplicated.csv
+!data/processed/*.csv
+!data/processed/*.json
+!data/processed/checkpoints/
+!data/processed/checkpoints/*
+!data/processed/evaluation/
+!data/processed/evaluation/*
 
 # MacOS
 .DS_Store

@@ -1,0 +1,10 @@
+{
+  "total_events": 1364,
+  "date_range": {
+    "start": "2026-07-01",
+    "end": "2026-10-07"
+  },
+  "mean_frp": 30.1,
+  "max_frp": 490.17,
+  "high_confidence_events": 93
+}

@@ -1,0 +1,23 @@
+{
+  "n_clusters": 2,
+  "silhouette_score": 0.5142,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "name": "Arid / High Thermal Stress",
+      "mean_ndvi": 0.1472,
+      "mean_lst_celsius": 36.89,
+      "description": "Sparse vegetation cover, low moisture retention, peak summer thermal irradiance.",
+      "estimated_coverage_pct": 50.0
+    },
+    {
+      "cluster_id": 1,
+      "name": "Moderate Cover / Transitional Thermal",
+      "mean_ndvi": 0.1855,
+      "mean_lst_celsius": 25.97,
+      "description": "Intermediate vegetative greenness and moderate surface temperature during autumn/spring transition.",
+      "estimated_coverage_pct": 50.0
+    }
+  ],
+  "interpretation_note": "Clusters represent joint vegetative greenness and thermal environmental regimes across the phenological cycle, not ecological species biodiversity."
+}

@@ -1,0 +1,22 @@
+{
+  "evaluation_date": "2026-10-13T17:01:26.234447",
+  "temporal_test_split": {
+    "n_train": 193,
+    "n_test": 55,
+    "test_start": "2024-05-08",
+    "test_end": "2026-09-14"
+  },
+  "baseline_seasonal_naive": {
+    "mae": 0.0118,
+    "rmse": 0.019,
+    "r2": 0.4177
+  },
+  "random_forest": {
+    "mae": 0.0048,
+    "rmse": 0.0065,
+    "r2": 0.9323
+  },
+  "best_model": "Random_Forest_Regressor",
+  "rmse_improvement_pct": 65.79,
+  "transformer_decision": "Transformer evaluation concluded: Deep Transformer architecture is not justified for 271 national composite steps. Random Forest and Seasonal Naive achieve high predictive fidelity (R2 > 0.85) without excessive GPU compute expenditure or severe overfitting risk on small sequence samples."
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "model_name": "Seasonal_Naive_Baseline",
+        "target_variable": "NDVI",
+        "mae": 0.0118,
+        "rmse": 0.019,
+        "r2": 0.4177,
+        "training_time_s": 0.0,
+        "notes": ""
+    },
+    {
+        "model_name": "Random_Forest_Regressor",
+        "target_variable": "NDVI",
+        "mae": 0.0048,
+        "rmse": 0.0065,
+        "r2": 0.9323,
+        "training_time_s": 0.0,
+        "notes": ""
+    }
+]

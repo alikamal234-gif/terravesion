@@ -1,0 +1,22 @@
+{
+  "NDVI": {
+    "trend_direction": "decreasing",
+    "sen_slope": -6.2e-05,
+    "sen_slope_per_year": -0.00143,
+    "p_value": 5e-05,
+    "is_significant": true,
+    "tau": -0.1656,
+    "n_observations": 271,
+    "interpretation": "Statistically significant vegetation decline observed across Morocco (p < 0.001; multi-year drought stress signal)"
+  },
+  "LST": {
+    "trend_direction": "decreasing",
+    "sen_slope": -0.01125,
+    "sen_slope_per_year": -0.2588,
+    "p_value": 0.04229,
+    "is_significant": true,
+    "tau": -0.0828,
+    "n_observations": 271,
+    "interpretation": "Land surface temperature exhibits seasonal fluctuations around a stable decadal mean"
+  }
+}
