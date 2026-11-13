@@ -210,7 +210,7 @@ export default function TerraPulseDashboard() {
   ) => {
     setIsPredicting(true);
     setPredictionError(null);
-    const API_URL = 'https://terravesion.apps.vpsora.dev';
+    const API_URL = 'https://terravesion-b45h.vercel.app';
     try {
       const res = await fetch(`${API_URL}/forecasts/predict`, {
         method: 'POST',
